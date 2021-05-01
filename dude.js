@@ -7,7 +7,7 @@ class Super {
       this.body = Bodies.rectangle(x, y, 400, 300, options);
       this.width = 400;
       this.height = 300;
-      this.image = loadImage("images/Superhero-01.png");
+      this.image = loadImage("Superhero-01.png");
       World.add(world, this.body);
     }
   
